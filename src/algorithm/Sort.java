@@ -34,7 +34,7 @@ public class Sort {
         final long startTime = System.currentTimeMillis();
         int [] list = array;
         //implement here
-
+        
 
         final long endTime = System.currentTimeMillis();
         final long executionTime = endTime - startTime;
@@ -46,36 +46,36 @@ public class Sort {
         int [] list = array;
         //implement here
 
-        
-        
+
+
         return list;
     }
-    
+
 
     public int [] mergeSort(int [] array){
         int [] list = array;
         //implement here
-        
-        
+
+
 
         return list;
     }
-    
+
 
     public int [] quickSort(int [] array){
         int [] list = array;
         //implement here
-        
-        
+
+
 
         return list;
     }
-    
+
     public int [] heapSort(int [] array){
         int [] list = array;
         //implement here
-        
-        
+
+
 
         return list;
     }
@@ -84,17 +84,17 @@ public class Sort {
     public int [] bucketSort(int [] array){
         int [] list = array;
         //implement here
-        
-        
+
+
 
         return list;
     }
-    
+
     public int [] shellSort(int [] array){
         int [] list = array;
         //implement here
-        
-        
+
+
 
         return list;
     }
