@@ -16,6 +16,7 @@ import java.sql.Connection;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
+import java.util.Queue;
 
 /**
  * Created by mrahman on 04/02/18.
@@ -149,7 +150,7 @@ public class ConnectDB {
         return data;
     }
 
-    public void insertDataFromArrayListToMySql(List<Student> list, String tableName, String columnName)
+    public void insertDataFromArrayListToMySql(ArrayList<String> list, String tableName, String columnName)
     {
         try {
             connectToMySql();
@@ -243,7 +244,7 @@ public class ConnectDB {
         }
         return list;
     }
-    public void insertProfileToMySql(String tableName, String columnName1, String columnName2)
+    public void insertProfileToMySql(Queue<String> tableName, String columnName1, String columnName2)
     {
         try {
             connectToMySql();
